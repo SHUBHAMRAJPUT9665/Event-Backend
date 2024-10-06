@@ -6,7 +6,6 @@ import {
   login,
 } from "../controllers/user.controller.js";
 import { isLoggedIn } from "../middleware/auth.middleware.js";
-import { upload } from "../middleware/multer.middleware.js";
 const router = Router();
 
 router.route("/register").post(
